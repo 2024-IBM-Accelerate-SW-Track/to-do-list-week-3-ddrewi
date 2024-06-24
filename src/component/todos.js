@@ -16,7 +16,7 @@ const Todos = ({ todos, deleteTodo }) => {
       const dueDate = new Date(todo.due);
       const currentDate = new Date();
       if (currentDate > dueDate) {
-        color = "#db6363";
+        color = "IndianRed";
       }
       return (
         <Grid key={todo.id}>
